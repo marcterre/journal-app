@@ -1,3 +1,7 @@
 export function Header({ headline }) {
-  return <h1 className="headline">{headline}</h1>;
+  return (
+    <header>
+      <h1 className="headline">{headline}</h1>
+    </header>
+  );
 }

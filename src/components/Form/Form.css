@@ -1,0 +1,27 @@
+Form {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+
+.textareaForm,
+.inputForm {
+  width: 90vw;
+}
+
+.inputForm {
+  height: 5vh;
+}
+
+.textareaForm {
+  height: 10vh;
+}
+
+.buttonCreate {
+  background-color: var(--color-nemo);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}

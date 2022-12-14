@@ -1,0 +1,27 @@
+.tapbar {
+  display: flex;
+  gap: 20px;
+  width: 100vw;
+}
+
+.buttonTapbar {
+  display: flex;
+  padding: 10px;
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.buttonTapbar:focus {
+  color: var(--color-nemo);
+}
+
+.buttonCounter {
+  font-weight: 300;
+  margin-left: 10px;
+  padding: 0px 5px;
+  background-color: var(--color-water-10);
+  width: 20px;
+  border-radius: 10px;
+}

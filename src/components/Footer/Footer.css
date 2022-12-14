@@ -1,8 +1,11 @@
-Header {
-  background-color: var(--color-water-10);
+Footer {
+  background-color: var(--color-granite);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0px;
   height: 10vh;
   width: 100vw;
 }
