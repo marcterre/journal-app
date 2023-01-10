@@ -3,11 +3,10 @@ import { Header } from "./components/Header/Header.js";
 import { Form } from "./components/Form/Form.js";
 import { Footer } from "./components/Footer/Footer.js";
 import { Tapbar } from "./components/Tabbar/Tabbar.js";
-import { useState } from "react";
-// import { FormEntries } from "./components/FormEntries/FormEntries.js";
+import useLocalStorageState from "use-local-storage-state";
 
 function App() {
-  const [entries, setEntries] = useState("");
+  const [entries, setEntries] = useLocalStorageState("");
 
   function handleAddEntry(event) {
     return;
