@@ -2,6 +2,7 @@
 @import "./components//Form//Form.css";
 @import "./components//Footer/Footer.css";
 @import "./components/Tabbar/Tabbar.css";
+/* @import "./components/FormEntries/FormEntries.css"; */
 
 :root {
   /* Used for texts (+ footer background) */
